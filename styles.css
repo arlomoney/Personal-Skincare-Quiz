@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #fafafa;
+    margin: 0;
+}
+
+.survey-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #e861bdb7;
+    color: white;
+    padding: 12px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #e861bdb7;
+    transform: scale(1.05);
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.result-container {
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.result {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.restart-btn {
+    background-color: #b026c850;
+}
+
+.restart-btn:hover {
+    background-color: #b026c850;
+}
+
+.start-btn, .next-btn {
+    background-color: #ff4081;
+}
+
+.start-btn:hover, .next-btn:hover {
+    background-color: #e73370;
+}
