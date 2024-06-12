@@ -6,6 +6,6 @@ and then search up "Live Server" and download it. it should be this one.
 
 and then once you have this downloaded just code ur thing or whatever and then if you want to run it and see how it works you have to click this:
 <img width="959" alt="image" src="https://github.com/arlomoney/CSA-FINAL/assets/149131518/ff822aaf-a4b4-48fa-a5a8-b8b2aa8a2c21">
-and yeah just turn it off when you finish editing and click it again after to run the code again.
+and yeah just click it again to turn it off (it should say something like Port:5500 or maybe the number is different for you i am not sure) when you finish editing
 
 its pretty easy yuhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
