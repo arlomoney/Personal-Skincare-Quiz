@@ -1,4 +1,5 @@
 This is just the code, but edit it in visual studio and then paste it back here. Also, if you want to run the code and see how it looks you need to do this:
+to edit it just open all 3 files
 
 Click the place i circled:<img width="961" alt="image" src="https://github.com/arlomoney/CSA-FINAL/assets/149131518/6189cf41-94dd-4368-aad1-1c417745fb8b">
 and then search up "Live Server" and download it. it should be this one.
