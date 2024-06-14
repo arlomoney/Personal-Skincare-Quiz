@@ -9,7 +9,7 @@ const restartButton = document.getElementById('restart-btn');
 
 let currentQuestionIndex;
 let answers = [];
-let shuffledQuestions = []; // Declare shuffledQuestions
+let shuffledQuestions = [];
 
 const questions = [
     {
@@ -59,7 +59,7 @@ restartButton.addEventListener('click', restartSurvey);
 
 function startSurvey() {
     startButton.classList.add('hide');
-    shuffledQuestions = questions; // Assign questions to shuffledQuestions
+    shuffledQuestions = questions; 
     currentQuestionIndex = 0;
     answers = [];
     questionContainerElement.classList.remove('hide');
@@ -111,7 +111,6 @@ function showResult() {
 function getAdvice(answers) {
     let advice = "Based on your answers:\n";
 
-    // Custom advice based on answers
     if (answers[0] === 'oily') {
         advice += "\nYou have oily skin. Consider using oil-free moisturizers and cleansers such as ";
         if (answers[3] === 'cheap') {
